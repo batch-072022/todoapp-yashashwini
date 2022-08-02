@@ -11,6 +11,8 @@ import { AddTaskComponent } from './add-task/add-task.component';
 import { HomeComponent } from './home/home.component';
 import { EditTaskComponent } from './edit-task/edit-task.component';
 import { ListtaskComponent } from './listtask/listtask.component';
+import { ViewUserComponent } from './view-user/view-user.component';
+import { EditUserComponent } from './edit-user/edit-user.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ListtaskComponent } from './listtask/listtask.component';
     AddTaskComponent,
     HomeComponent,
     EditTaskComponent,
-    ListtaskComponent
+    ListtaskComponent,
+    ViewUserComponent,
+    EditUserComponent
   ],
   imports: [
     BrowserModule,
